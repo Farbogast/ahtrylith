@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 88vh;
+  width: 100%;
+  background-color: grey;
+  justify-content: center;
+}
+
+.titleR {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  background-color: #404046;
+  border: 2px solid #a87300;
+  border-radius: 8px;
+}
+
+.roster {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+}
+.team {
+  width: fit-content;
+  border: 2px solid #a87300;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: #404046;
+  margin: auto;
+}
+
+.player {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+}
+
+img {
+  height: 400px;
+  width: 200px;
+}

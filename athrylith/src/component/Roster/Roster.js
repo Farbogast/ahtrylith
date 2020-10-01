@@ -4,7 +4,7 @@ import "./Roster.css";
 
 const Roster = () => {
   return (
-    <div className="container">
+    <div className="wrapper">
       <div className="titleR">Welcome to our Rosters</div>
       <div className="roster">
         <div className="team">
@@ -35,46 +35,21 @@ const Roster = () => {
           </div>
         </div>
         <div className="team">
-          Roster R6
+          Roster SSBU
           <div className="player">
             <ReactCountryFlag countryCode="FR" svg />
-            Etoiles(c)
+            SSBU1
           </div>
           <div className="player">
             <ReactCountryFlag countryCode="FR" svg />
-            Scary
-          </div>
-          <div className="player">
-            <ReactCountryFlag countryCode="FR" svg />
-            WhiteTiger
-          </div>
-          <div className="player">
-            <ReactCountryFlag countryCode="CH" svg />
-            Ung
-          </div>
-          <div className="player">
-            <ReactCountryFlag countryCode="FR" svg />
-            Monster flip
+            SSBU2
           </div>
         </div>
         <div className="team">
-          <div className="team1">
-            Roster SSBU
-            <div className="player">
-              <ReactCountryFlag countryCode="FR" svg />
-              SSBU1
-            </div>
-            <div className="player">
-              <ReactCountryFlag countryCode="FR" svg />
-              SSBU2
-            </div>
-          </div>
-          <div className="team1">
-            Roster FIFA20
-            <div className="player">
-              <ReactCountryFlag countryCode="FR" svg />
-              Yanis
-            </div>
+          Roster FIFA20
+          <div className="player">
+            <ReactCountryFlag countryCode="FR" svg />
+            Yanis
           </div>
         </div>
       </div>
