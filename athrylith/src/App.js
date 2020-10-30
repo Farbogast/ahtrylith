@@ -7,6 +7,7 @@ import "./App.css";
 import Homepage from "./component/Homepage/Homepage";
 import Roster from "./component/Roster/Roster";
 import Contact from "./component/Contact/Contact";
+import Staff from "./component/Staff/Staff";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/" component={Homepage} />
             <Route path="/roster" component={Roster} />
             <Route path="/contact" component={Contact} />
+            <Route path="/staff" component={Staff} />
           </Switch>
         </BrowserRouter>
       </div>
