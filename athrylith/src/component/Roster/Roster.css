@@ -42,11 +42,31 @@
   border: 3px solid #3c3c34;
   border-radius: 10px;
   padding: 40px 20px;
-  margin-right: 100px;
+  margin-right: 15px;
+  width: auto;
+  max-height: fit-content;
+  background: whitesmoke;
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+.team-container:hover{
+  background: tomato;
+}
+
+.player-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #3c3c34;
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin-right: 20px;
   width: auto;
   background: whitesmoke;
   box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
 }
+
 
 #image11 {
   height:200px;
@@ -61,4 +81,8 @@
 #image33 {
   height: 200px;
   width: 200px;
+}
+
+p{
+  margin: 2px 8px;
 }
